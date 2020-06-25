@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   align-items: center;
   width: 1920px;
   height: 106px;
+  border-bottom: 1px solid #c4c4c4;
 `;
 
 export const WrapperLogo = styled.div``;
