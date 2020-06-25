@@ -10,11 +10,11 @@ const Fifth = () => <SVG src={require("../svg/menu/FifthLetter.svg")} />;
 const Logo = () => {
   return (
     <div>
-      {First()}
-      {Second()}
-      {Third()}
-      {Fourth()}
-      {Fifth()}
+      <First />
+      <Second />
+      <Third />
+      <Fourth />
+      <Fifth />
     </div>
   );
 };
