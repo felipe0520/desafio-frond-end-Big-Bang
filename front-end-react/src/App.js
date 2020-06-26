@@ -6,6 +6,8 @@ import BlogPage from "./pages/blog";
 import MamahShop from "./pages/manahShop";
 import CursosPage from "./pages/cursos";
 import PodcastsPage from "./pages/podcasts";
+import ConceptPage from "./pages/concept";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <MamahShop />
       <CursosPage />
       <PodcastsPage />
+      <ConceptPage />
     </div>
   );
 }
