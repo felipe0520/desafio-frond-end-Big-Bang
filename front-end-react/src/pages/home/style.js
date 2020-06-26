@@ -8,7 +8,7 @@ export const WrapperHomePage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1920px;
+  width: 100vw;
 `;
 
 export const WrapperImagensSecondary = styled.div`
@@ -30,7 +30,7 @@ export const PrimaryImagemGrid = styled.img`
 `;
 
 export const WrapperProducts = styled.div`
-  width: 62.5%;
+  width: 1200px;
   margin-top: 10px;
   height: 210px;
   display: grid;
@@ -41,7 +41,9 @@ export const WrapperProducts = styled.div`
 
 export const WrapperImagens = styled.div`
   display: flex;
-  width: 62.5%;
+  width: 1200px;
+  border: 1px solid red;
+  justify-content: space-between;
 `;
 
 export const ImagemLeft = styled.img`

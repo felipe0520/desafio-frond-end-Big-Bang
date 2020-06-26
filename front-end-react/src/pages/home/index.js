@@ -9,22 +9,21 @@ import {
   WrapperImagens,
   Title,
 } from "./style";
-import Card from "../../components/homePage/Card.js";
-import TitlePage from "../../components/TitlePage/TitlePage";
+import Card from "../../components/home/Card.js";
 
 const HomePage = () => {
   return (
     <WrapperHomePage>
-      <Welcome src={require("../../svg/imgHome/Welcome.svg")}></Welcome>
+      <Welcome src={require("../../svg/home/Welcome.svg")}></Welcome>
       <WrapperImagens>
         <WrapperImagensSecondary>
-          <img src={require("../../svg/imgHome/PrincipalImage.svg")} />
+          <img src={require("../../svg/home/PrincipalImage.svg")} />
           <WrapperImagensGrid>
             <PrimaryImagemGrid
-              src={require("../../svg/imgHome/grid/PrimaryImageGrid.svg")}
+              src={require("../../svg/home/grid/PrimaryImageGrid.svg")}
             />
-            <img src={require("../../svg/imgHome/grid/SecondImageGrid.svg")} />
-            <img src={require("../../svg/imgHome/grid/ThirdImageGrid.svg")} />
+            <img src={require("../../svg/home/grid/SecondImageGrid.svg")} />
+            <img src={require("../../svg/home/grid/ThirdImageGrid.svg")} />
           </WrapperImagensGrid>
         </WrapperImagensSecondary>
       </WrapperImagens>
@@ -37,36 +36,36 @@ const HomePage = () => {
           title="Livro Acenda a Sua Luz"
           subtitle="Carol Rache"
           price="R$ 54,00"
-          url={require("../../svg/imgHome/products/Book.svg")}
+          url={require("../../svg/home/products/Book.svg")}
         />
         <Card
           title="Camisa solidária"
           subtitle="Tamanho único"
           price="R$ 149,00"
-          url={require("../../svg/imgHome/products/T-shirt.svg")}
+          url={require("../../svg/home/products/T-shirt.svg")}
         />
         <Card
           title="Tapete Viagem Pássaro"
           price="R$ 237,00"
-          url={require("../../svg/imgHome/products/Carpet.svg")}
+          url={require("../../svg/home/products/Carpet.svg")}
         />
         <Card
           title="Livro Acenda a Sua Luz"
           subtitle="Carol Rache"
           price="R$ 54,00"
-          url={require("../../svg/imgHome/products/Book.svg")}
+          url={require("../../svg/home/products/Book.svg")}
         />
 
         <Card
           title="Camisa solidária"
           subtitle="Tamanho único"
           price="R$ 149,00"
-          url={require("../../svg/imgHome/products/T-shirt.svg")}
+          url={require("../../svg/home/products/T-shirt.svg")}
         />
         <Card
           title="Tapete Viagem Pássaro"
           price="R$ 237,00"
-          url={require("../../svg/imgHome/products/Carpet.svg")}
+          url={require("../../svg/home/products/Carpet.svg")}
         />
       </WrapperProducts>
       <Title />
