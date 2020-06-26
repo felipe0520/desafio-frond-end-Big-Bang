@@ -5,18 +5,30 @@ import {
   Date,
   Title,
   Description,
+  Duration,
   Arrow,
+  ArrowPlay,
 } from "./style";
 
 const CardSecondary = (props) => {
+  console.log(props);
+
   return (
     <WrapperCardSecondary>
       <img src={props.url} />
       <Date>{props.date}</Date>
       <Title>{props.title}</Title>
       <WrapperFooter>
-        <Description>{props.description}</Description>
-        <Arrow>&rarr;</Arrow>
+        <div>
+          <Duration>{props.duration}</Duration>
+          <Description>{props.description}</Description>
+        </div>
+        {props.arrowPlay && (
+          <ArrowPlay>
+            <img src={require("../../svg/podcast/icon/Arrow.svg")} />
+          </ArrowPlay>
+        )}
+        {props.arrowSimple && <Arrow>&rarr;</Arrow>}
       </WrapperFooter>
     </WrapperCardSecondary>
   );
