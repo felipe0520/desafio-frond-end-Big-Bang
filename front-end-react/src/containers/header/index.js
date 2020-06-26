@@ -1,7 +1,7 @@
 import React from "react";
 import { Wrapper, TextFild, WrapperMenu } from "./styled";
-import Logo from "../../components/Logo";
-import WrapperButtonHeader from "../../components/WrapperButtonHeader";
+import Logo from "../../components/logo/Logo";
+import WrapperButtonHeader from "../../components/header/WrapperButtonHeader";
 
 const Header = () => {
   return (
