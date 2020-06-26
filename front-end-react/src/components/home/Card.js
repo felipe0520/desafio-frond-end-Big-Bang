@@ -1,17 +1,36 @@
 import React from "react";
-import { Subtitle, Product, Title, Price } from "./styled.js";
+import {
+  Product,
+  Subtitle,
+  ProductInfo,
+  Title,
+  Price,
+  Heart,
+  HeartFiled,
+} from "./styled.js";
 
 const Card = (props) => {
-  console.log(props);
   return (
-    <div>
+    <Product>
+      {props.heartFiled && (
+        <HeartFiled heart={props.heart}>
+          <img src={require("../../svg/mamahShop/icon/Heart.svg")} />
+        </HeartFiled>
+      )}
+
+      {props.heart && (
+        <Heart heart={props.heart}>
+          <img src={require("../../svg/mamahShop/icon/Heart.svg")} />
+        </Heart>
+      )}
+
       <img src={props.url} />
-      <Product>
+      <ProductInfo>
         <Title>{props.title}</Title>
         <Subtitle>{props.subtitle}</Subtitle>
-      </Product>
+      </ProductInfo>
       <Price>{props.price}</Price>
-    </div>
+    </Product>
   );
 };
 

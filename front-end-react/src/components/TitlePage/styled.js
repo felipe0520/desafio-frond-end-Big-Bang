@@ -7,7 +7,8 @@ export const Title = styled.fieldset`
   border-right: none;
   display: block;
   text-align: center;
-  width: 62.5%;
+  width: 1200px;
+  margin-top: 120px;
 `;
 
 export const TitleName = styled.legend`
