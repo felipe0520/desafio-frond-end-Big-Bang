@@ -14,4 +14,5 @@ export const Title = styled.fieldset`
 export const TitleName = styled.legend`
   padding: 5px 10px;
   font-size: 48px;
+  text-align: center;
 `;
