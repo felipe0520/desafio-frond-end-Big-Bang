@@ -4,6 +4,7 @@ import Header from "./containers/header/";
 import HomePage from "./pages/home";
 import BlogPage from "./pages/blog";
 import MamahShop from "./pages/manahShop";
+import CursosPage from "./pages/cursos";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <HomePage />
       <BlogPage />
       <MamahShop />
+      <CursosPage />
     </div>
   );
 }
