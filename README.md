@@ -26,3 +26,12 @@ O projeto consiste em implementação de uma interface a partir do mockuos fonrn
 ![Screenshot](screenshot/QuartaTela1920.png)
 ![Screenshot](screenshot/QuintaTela1920.png)
 ![Screenshot](screenshot/SextaTela1920.png)
+
+### Abaixo telas do chrome com a largura da tela em 1024px, parcialmente responsiva
+
+
+![Screenshot](screenshot/PrimeiraTela1024.png)
+![Screenshot](screenshot/SegundaTela1024.png)
+![Screenshot](screenshot/TerceiraTela1024.png)
+![Screenshot](screenshot/QuartaTela1024.png)
+![Screenshot](screenshot/QuintaTela1024.png)
