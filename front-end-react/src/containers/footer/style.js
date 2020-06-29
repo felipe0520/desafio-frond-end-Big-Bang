@@ -32,11 +32,19 @@ export const WrapperSecondary = styled.div`
 
 export const FormFooter = styled.form`
   color: white;
+
+  @media (max-width: 1400px) {
+    width: 15vw;
+  }
 `;
 
 export const InputForm = styled.input`
   width: 371px;
   height: 43px;
+  @media (max-width: 1400px) {
+    width: 10vw;
+    margin-right: 0;
+  }
 `;
 
 export const ButtonForm = styled.button`
@@ -53,6 +61,10 @@ export const ButtonForm = styled.button`
   margin-left: 54px;
   margin-right: 100px;
   text-align: center;
+  @media (max-width: 900px) {
+    width: 70px;
+    margin-right: 0;
+  }
 `;
 
 export const PadLockDiv = styled.div`

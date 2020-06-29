@@ -9,6 +9,10 @@ export const Title = styled.fieldset`
   text-align: center;
   width: 1200px;
   margin-top: 120px;
+
+  @media (max-width: 1035px) {
+    width: 100vw;
+  }
 `;
 
 export const TitleName = styled.legend`
