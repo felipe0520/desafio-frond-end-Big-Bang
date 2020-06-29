@@ -11,8 +11,6 @@ import {
 } from "./style";
 
 const CardSecondary = (props) => {
-  console.log(props);
-
   return (
     <WrapperCardSecondary>
       <img src={props.url} />

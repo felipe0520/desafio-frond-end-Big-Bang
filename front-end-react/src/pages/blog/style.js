@@ -33,6 +33,5 @@ export const WrapperPublicationsSecondary = styled.div`
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     height: 1000px;
-    border: 1px solid red;
   }
 `;
