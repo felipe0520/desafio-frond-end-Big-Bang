@@ -24,7 +24,7 @@ O projeto consiste em implementação de uma interface a partir do mockups fonrn
 ![Screenshot](screen/SegundaTela1920.png)
 ![Screenshot](screen/TerceiraTela1920.png)
 ![Screenshot](screen/QuartaTela1920.png)
-![Screenshot](screen/QuintaTela1920.png)
+![Screenshot](screen/QuintaTela.png)
 ![Screenshot](screen/SextaTela1920.png)
 
 ### Abaixo telas do chrome com a largura da tela em 1024px, parcialmente responsiva
