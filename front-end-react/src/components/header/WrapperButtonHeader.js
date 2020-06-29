@@ -1,6 +1,6 @@
 import React from "react";
 import SVG from "react-inlinesvg";
-import { WrapperButton } from "./WrapperButtonHeaderStyle";
+import { WrapperButton } from "./style";
 
 const WrapperButtonHeader = () => {
   const Search = () => (

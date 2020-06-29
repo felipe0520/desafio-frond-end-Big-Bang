@@ -1,5 +1,5 @@
 import React from "react";
-import { WrapperLogo, First, Second, Third, Fourth, Fifth } from "./styled";
+import { WrapperLogo, First, Second, Third, Fourth, Fifth } from "./style";
 
 const Logo = () => {
   return (

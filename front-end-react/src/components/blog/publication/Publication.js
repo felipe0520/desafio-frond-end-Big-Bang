@@ -6,7 +6,7 @@ import {
   WrapperPublication,
   Subtitle,
   Author,
-} from "./styled";
+} from "./style";
 
 const Publication = (props) => {
   console.log(props);

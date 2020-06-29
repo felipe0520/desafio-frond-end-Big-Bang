@@ -1,5 +1,5 @@
 import React from "react";
-import { WrapperCursosPage, WrapperCards } from "./styled";
+import { WrapperCursosPage, WrapperCards } from "./style";
 import CardSecondary from "../../components/cardSecondary/CardSecondary";
 import TitlePage from "../../components/TitlePage/TitlePage";
 import ButtonFinalPage from "../../components/buttonFinalPage/ButtonFinalPage";

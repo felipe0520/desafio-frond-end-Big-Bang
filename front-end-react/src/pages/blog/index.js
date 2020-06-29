@@ -4,7 +4,7 @@ import {
   WrapperBlogPage,
   WrapperPublications,
   WrapperPublicationsSecondary,
-} from "./styled";
+} from "./style";
 import Publication from "../../components/blog/publication/Publication";
 import PublicationSecondary from "../../components/blog/publicationSecondary/PublicationSecondary";
 import Form from "../../components/blog/form/Form";
