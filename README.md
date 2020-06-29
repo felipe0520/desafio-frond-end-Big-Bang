@@ -9,7 +9,7 @@ Projeto do desafio front-end
 
 ### Escopo
 
-O projeto consiste em implementação de uma interface a partir do mockups fonrnecido.
+O projeto consiste em implementação de uma interface a partir do mockups fornecido.
 
 ### Critérios de avaliação
 1. Responsividade do Layout
