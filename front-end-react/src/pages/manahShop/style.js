@@ -12,6 +12,12 @@ export const WrapperProducts = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   text-align: center;
+  @media (max-width: 1330px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+  }
 `;
 
 export const ButtonCurrentItens = styled.button`

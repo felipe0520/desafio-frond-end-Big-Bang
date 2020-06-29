@@ -15,6 +15,9 @@ export const WrapperImagensSecondary = styled.div`
   display: flex;
   width: 100%;
   margin-top: 60px;
+  @media (max-width: 1330px) {
+    display: block;
+  }
 `;
 export const WrapperImagensGrid = styled.div`
   display: grid;
@@ -22,6 +25,11 @@ export const WrapperImagensGrid = styled.div`
   gap: 24px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  @media (max-width: 1330px) {
+    width: 50vw;
+    border: 1px solid red;
+    margin: auto;
+  }
 `;
 
 export const PrimaryImagemGrid = styled.img`
@@ -37,13 +45,22 @@ export const WrapperProducts = styled.div`
   gap: 25px;
   grid-template-columns: repeat(7, 1fr);
   text-align: center;
+  @media (max-width: 1330px) {
+    width: 80vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    border: 1px solid red;
+  }
 `;
 
 export const WrapperImagens = styled.div`
   display: flex;
   width: 1200px;
-  border: 1px solid red;
   justify-content: space-between;
+  @media (max-width: 1330px) {
+    width: 100vw;
+  }
 `;
 
 export const ImagemLeft = styled.img`
