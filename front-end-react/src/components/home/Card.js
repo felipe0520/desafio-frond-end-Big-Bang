@@ -7,7 +7,7 @@ import {
   Price,
   Heart,
   HeartFiled,
-} from "./styled.js";
+} from "./style.js";
 
 const Card = (props) => {
   return (

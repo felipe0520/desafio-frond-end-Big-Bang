@@ -5,7 +5,7 @@ import {
   WrapperProducts,
   ButtonCurrentItens,
   ButtonNextItens,
-} from "./styled";
+} from "./style";
 import Card from "../../components/home/Card";
 import ButtonFinalPage from "../../components/buttonFinalPage/ButtonFinalPage";
 

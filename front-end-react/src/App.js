@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Header from "./containers/header/";
 import HomePage from "./pages/home";
 import BlogPage from "./pages/blog";
@@ -11,13 +10,13 @@ import Footer from "./containers/footer/index";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <HomePage />
       <BlogPage />
       <MamahShop />
       <CursosPage />
-      {<PodcastsPage />}
+      <PodcastsPage />
       <ConceptPage />
       <Footer />
     </div>

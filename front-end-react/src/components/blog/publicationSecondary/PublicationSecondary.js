@@ -5,7 +5,7 @@ import {
   Title,
   Description,
   Type,
-} from "./styled";
+} from "./style";
 
 const PublicationSecondary = (props) => {
   return (

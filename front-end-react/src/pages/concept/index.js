@@ -1,5 +1,5 @@
 import React from "react";
-import { WrapperConceptPage, WrapperPhotos } from "./styled";
+import { WrapperConceptPage, WrapperPhotos } from "./style";
 import TitlePage from "../../components/TitlePage/TitlePage";
 
 const ConceptPage = () => {
