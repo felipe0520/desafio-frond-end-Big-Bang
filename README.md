@@ -17,6 +17,14 @@ O projeto consiste em implementação de uma interface a partir do mock designer
 3. Cobertura de testes
 4. Organização do código
 
+### Para rodar o projeto
+
+Após baixar os arquivos, no terminal digite
+``` npm install ```
+
+e depois
+``` npm start ```
+
 
 ### Abaixo telas do chrome com a largura da tela em 1920px
 
