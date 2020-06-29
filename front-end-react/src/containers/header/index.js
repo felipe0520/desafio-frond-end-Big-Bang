@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, TextFild, WrapperMenu } from "./styled";
+import { Wrapper, TextFild, WrapperMenu } from "./style";
 import Logo from "../../components/logo/Logo";
 import WrapperButtonHeader from "../../components/header/WrapperButtonHeader";
 
