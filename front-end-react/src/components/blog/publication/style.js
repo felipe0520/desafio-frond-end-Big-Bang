@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const WrapperPublication = styled.div`
   position: relative;
+  @media (max-width: 1050px) {
+    text-align: center;
+  }
 `;
 
 export const PublicationImage = styled.img``;

@@ -27,7 +27,6 @@ export const WrapperImagensGrid = styled.div`
   grid-template-rows: 1fr 1fr;
   @media (max-width: 1330px) {
     width: 50vw;
-    border: 1px solid red;
     margin: auto;
   }
 `;
@@ -50,7 +49,6 @@ export const WrapperProducts = styled.div`
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     height: auto;
-    border: 1px solid red;
   }
 `;
 
@@ -60,6 +58,7 @@ export const WrapperImagens = styled.div`
   justify-content: space-between;
   @media (max-width: 1330px) {
     width: 100vw;
+    text-align: center;
   }
 `;
 

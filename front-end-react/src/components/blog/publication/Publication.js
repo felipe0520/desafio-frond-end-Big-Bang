@@ -9,7 +9,6 @@ import {
 } from "./style";
 
 const Publication = (props) => {
-  console.log(props);
   return (
     <WrapperPublication>
       <PublicationImage src={props.url} />
