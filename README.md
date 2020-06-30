@@ -19,6 +19,10 @@ O projeto consiste em implementação de uma interface a partir do mock designer
 
 ### Para rodar o projeto
 
+No terminal. clone o projeto:
+
+```git clone: https://github.com/felipe0520/desafio-frond-end-Big-Bang ```
+
 Após baixar os arquivos, no terminal digite
 ``` npm install ```
 
